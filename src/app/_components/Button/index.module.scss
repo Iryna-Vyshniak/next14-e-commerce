@@ -8,10 +8,11 @@
   background-color: transparent;
   text-decoration: none;
   display: inline-flex;
-  padding: 12px 24px;
+  padding: 10px 24px;
   font-family: inherit;
   line-height: inherit;
   font-size: inherit;
+  border-radius: 10px;
 }
 
 .content {
@@ -34,8 +35,9 @@
 }
 
 .appearance--primary {
-  background-color: var(--theme-elevation-1000);
+  background-color: var(--color-orange-500);
   color: var(--theme-elevation-0);
+  box-shadow: 0 4px 6px -1px rgb(250, 250, 250 / 0.1), 0 2px 4px -2px rgb(0, 0, 0 / 0.1);
 }
 
 .appearance--secondary {
